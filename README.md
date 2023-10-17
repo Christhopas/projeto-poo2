@@ -16,7 +16,10 @@ O InovaWeek é um evento anual da Universidade Vila Velha que reúne estudantes,
 
 
  <br>
- Colocar Foto do Diagrama
+ classDiagram
+
+ 
+
 
 <br>
 
