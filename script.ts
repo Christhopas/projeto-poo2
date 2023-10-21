@@ -19,19 +19,19 @@ const prisma = new PrismaClient()
 async function main() {
   // ... you will write your Prisma Client queries here
 
-  // rodar os alunos no BD
+  // roda os alunos
   const primeiro_aluno = new Aluno("Guilherme", 1909, "guilherme@powerrangers.com", "Ciencia da Computacao");
   const segundo_aluno = new Aluno("Bernardo Abutre", 23, "kkkkeusoualto@chama.br", "Gastronomia");
   const terceiro_aluno = new Aluno("Christopher", 44, "sumiu@cadeatete.com", "O que der na telha");
 
 
-  // Professor
+  // Rodando o professor
   const primeiro_professor = new Professor("Bianca", "peteleu@peteleco.pt", 1011);
 
-  // Rodando o esrande no DB
+  // Rodando o estande
   const primeiro_estande = new Estande(1)
 
-  // Rodando o grupo no BD
+  // Rodando o grupo
   const primeiro_grupo = new Grupo("Os Farofeiros", primeiro_aluno.retornarMatricula(), 1, primeiro_estande.retornarNumero(), new Date());
 
 
