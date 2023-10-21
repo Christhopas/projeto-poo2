@@ -61,22 +61,22 @@ Todos esses Códigos e seus tutorias podem ser encontrados no site do [Prisma](h
 >```
 ### Código para popular o banco (rode um de cada vez na main do script.ts)
 >```
-preencherAluno(primeiro_aluno);
-preencherAluno(segundo_aluno);
-preencherAluno(terceiro_aluno);
+> preencherAluno(primeiro_aluno);
+> preencherAluno(segundo_aluno);
+> preencherAluno(terceiro_aluno);
 
-preencherProfessor(terceiro_professor);
+> preencherProfessor(terceiro_professor);
 
-preencherEstande(primeiro_estande);
+> preencherEstande(primeiro_estande);
 
-preencherGrupo(primeiro_grupo);
+> preencherGrupo(primeiro_grupo);
 
-agruparAluno(segundo_aluno, 1);
+> agruparAluno(segundo_aluno, 1);
 
-preencherAvaliacaoAluno(primeira_avaliacao_aluno);
-preencherAvaliacaoProfessor(primeira_avaliacao_professor);
+> preencherAvaliacaoAluno(primeira_avaliacao_aluno);
+> preencherAvaliacaoProfessor(primeira_avaliacao_professor);
 
-preencherAvaliacao(primeira_avaliacao, primeira_avaliacao_aluno, primeira_avaliacao_professor);
+> preencherAvaliacao(primeira_avaliacao, primeira_avaliacao_aluno, primeira_avaliacao_professor);
 >```
 # 4 Linguagens utilizadas no projeto:
 - Prisma
