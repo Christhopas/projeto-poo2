@@ -55,23 +55,23 @@ Todos esses Códigos e seus tutorias podem ser encontrados no site do [Prisma](h
 
 
 # **3. Rodando o Projeto**
-
+### Insira no terminal para rodar a main
 >```
 >   npx ts-node script.ts
 >```
 ### Código para popular o banco (rode um de cada vez na main do script.ts)
->```
-> preencherAluno(primeiro_aluno);
-> preencherAluno(segundo_aluno);
-> preencherAluno(terceiro_aluno);
-> preencherProfessor(terceiro_professor);
-> preencherEstande(primeiro_estande);
-> preencherGrupo(primeiro_grupo);
-> agruparAluno(segundo_aluno, 1);
-> preencherAvaliacaoAluno(primeira_avaliacao_aluno);
-> preencherAvaliacaoProfessor(primeira_avaliacao_professor);
-> preencherAvaliacao(primeira_avaliacao, primeira_avaliacao_aluno, primeira_avaliacao_professor);
->```
+```
+preencherAluno(primeiro_aluno);
+preencherAluno(segundo_aluno);
+preencherAluno(terceiro_aluno);
+preencherProfessor(terceiro_professor);
+preencherEstande(primeiro_estande);
+preencherGrupo(primeiro_grupo);
+agruparAluno(segundo_aluno, 1);
+preencherAvaliacaoAluno(primeira_avaliacao_aluno);
+preencherAvaliacaoProfessor(primeira_avaliacao_professor);
+preencherAvaliacao(primeira_avaliacao, primeira_avaliacao_aluno, primeira_avaliacao_professor);
+```
 # 4 Linguagens utilizadas no projeto:
 - Prisma
 - Draw.io
