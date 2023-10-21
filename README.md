@@ -16,7 +16,6 @@ O InovaWeek é um evento anual da Universidade Vila Velha que reúne estudantes,
 
 
  <br>
- classDiagram
 
  
 
@@ -62,7 +61,7 @@ Todos esses Códigos e seus tutorias podem ser encontrados no site do [Prisma](h
 
 >```
 >   npx tsc
->   node ./dist/avaliacaoinova.js 
+>   node ./dist/avaliacaoinova.js
 >```
 
 # 4 Linguagens utilizadas no projeto:
