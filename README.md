@@ -65,3 +65,7 @@ Todos esses Códigos e seus tutorias podem ser encontrados no site do [Prisma](h
 >   node ./dist/avaliacaoinova.js 
 >```
 
+# 4 Linguagens utilizadas no projeto:
+- Prisma
+- Draw.io
+- TypeScript
