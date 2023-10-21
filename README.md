@@ -22,40 +22,27 @@ O InovaWeek é um evento anual da Universidade Vila Velha que reúne estudantes,
 # **2. Iniciando o Projeto**
 Para iniciarmos o projeto é necessario fazer as seguintes instalações:
 
-#### Criar um projeto em TypeScript e colocar para funcionar no Prisma 
+#### Criar e abrir o projeto
 ```
 mkdir hello-prisma 
 cd hello-prisma
 ```
-#### Iniciando o node
+#### Baixar e iniciar o node, TypeScript e o Prisma
 ``` 
-npm init -y
-```
-#### Instalando o TypeScript
-```
 npm install typescript --save-dev
-```
-#### Inicializando e configurando o TypeScript
-```
 npx tsc --init
-```
-#### Instalando o Prisma CLI
-```
 npm install prisma --save-dev
-```
-#### Inicializando o Prisma
-```
 npx prisma init --datasource-provider sqlite
-```
-#### Migrando os dados para o Banco de Dados utilizando o Prisma Migrate
-```
-npx prisma migrate dev --name init
 ```
 Todos esses Códigos e seus tutorias podem ser encontrados no site do [Prisma](https://www.prisma.io/docs/getting-started/quickstart)
 
-
 # **3. Rodando o Projeto**
-### Insira no terminal para rodar a main
+#### Inserir no terminal para migras para o banco de dados os dados feitos no schema.prisma
+...
+npx prisma migrate dev --name init
+...
+
+#### Insira no terminal para rodar a main
 >```
 >   npx ts-node script.ts
 >```
