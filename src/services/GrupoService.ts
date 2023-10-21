@@ -5,6 +5,7 @@ import Aluno from "../models/Aluno";
 
 const prismaClient = new PrismaClient();
 
+// preenchimento de dados dos grupos
 export async function preencherGrupo(grupo: Grupo) {
     
     const dadosGrupo = await prismaClient.grupo.create({
