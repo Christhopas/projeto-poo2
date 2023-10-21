@@ -3,6 +3,7 @@ import { PrismaClient } from "@prisma/client"
 
 const prismaClient = new PrismaClient();
 
+// preenchimento de dados dos alunos
 export async function preencherAluno(aluno: Aluno) 
 {
     const dadosAluno = await prismaClient.aluno.create({
