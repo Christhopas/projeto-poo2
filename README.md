@@ -41,7 +41,7 @@ npx prisma migrate dev --name init
 >```
 >   npx ts-node script.ts
 >```
-### Código para popular o banco (rode um de cada vez na main do script.ts)
+### Código para popular o banco (rode um de cada vez dentro da main do script.ts)
 ```
 preencherAluno(primeiro_aluno);
 preencherAluno(segundo_aluno);
