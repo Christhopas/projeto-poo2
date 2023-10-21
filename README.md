@@ -60,8 +60,7 @@ Todos esses Códigos e seus tutorias podem ser encontrados no site do [Prisma](h
 # **3. Rodando o Projeto**
 
 >```
->   npx tsc
->   node ./dist/avaliacaoinova.js
+>   npx ts-node script.ts
 >```
 
 # 4 Linguagens utilizadas no projeto:
